@@ -1,0 +1,254 @@
+
+body{background-color : grey;}
+
+section#Titre{
+	display: inline-block;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 23%;
+	margin-bottom: 2%;
+	padding-left: 15%;
+	padding-right: 16%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	border: 2px solid;
+	border-color: white;
+	font-size: 20px;
+	}
+	
+section#Nom{
+	display: inline-block;
+	border-style: solid;
+	border-color: black;
+	margin-top: 13%;
+	margin-left: 24%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	background-color: #E3CEF6;
+	}
+	
+section#Cours{
+	display: inline-block;
+	border-style: solid;
+	border-color: black;
+	border-radius: 7px;
+	margin-top: 2%;
+	margin-left: 10%;
+	padding-left: 7%;
+	padding-right: 7%;
+	background-color: #F2E0F7;
+	}
+
+h5{color: red;}
+
+section#Loisirs{
+	display: inline-block;
+	border-style: solid;
+	border-color: black;
+	border-radius: 7px;
+	margin-top: 2%;
+	margin-left: 2%;
+	padding-bottom: 17px;
+	padding-left: 7%;
+	padding-right: 7%;
+	background-color: #F8E0F7;
+	}
+
+footer{
+	font-size: 10px;
+	margin-top: 2%;
+	border-top-style: solid;
+	border-top-width: thin;
+	margin-left: 80%;
+	}
+	
+h1{color: red;}
+
+section#NomCV{
+	display: block;
+	position: absolute;
+	border-style: solid;
+	border-color: black;
+	border-radius: 7px;
+	margin-top: 10px;
+	margin-left: 34%;
+	margin-right: 34%;
+	margin-bottom: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 1%;
+	background-color: #CECEF6;
+	}	
+	
+section#EtudesCV{
+	display : inline-block;
+	border-style: solid;
+	border-color: black;
+	border-radius: 7px;
+	margin-top: 215px;
+	margin-left: 5%;
+	padding-left: 5%;
+	padding-right: 3%;
+	padding-bottom: 1%;
+	background-color: #CED8F6;
+	}
+	
+section#ExpProCV{
+	display : inline-block;
+	border-style: solid;
+	border-color: black;
+	border-radius: 7px;
+	margin-top: 215px;
+	margin-left: 1%;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-bottom: 1%;
+	background-color: #CEE3F6;
+	}
+	
+section#LoisirsCV{
+	display : inline-block;
+	border-style: solid;
+	border-color: black;
+	border-radius: 7px;
+	margin-top: 2%;
+	margin-left: 31%;
+	margin-bottom: 2%;
+	padding-left: 7%;
+	padding-right: 14%;
+	padding-bottom: 1%;
+	background-color: #E0F2F7;
+	}
+	
+nav{
+	position: absolute;
+	margin-bottom: 1%;
+	padding-right: 1%;
+	padding-bottom: 5%;
+	font-size: smaller;
+	color: grey;
+	border-style: solid;
+	border-color: black;
+	}
+	
+a{text-decoration: none;}
+
+a:hover {text-decoration: underline;}	
+
+@media (min-width: 1024px) {
+	div{
+	display: flex;
+    flex-flow: row wrap;
+	}
+	section#Animation{
+	position: absolute;
+	margin-left: 85%;
+	margin-top: 2%;
+	}
+}
+
+@media (min-width: 600px) {
+    nav {
+        background-color: #E3CEF6;
+    }
+}
+
+@media (min-width: 400px) {
+	nav {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 1024px) {
+	div{
+		display: block;
+	}
+	section#Titre{
+		margin-left: 7%;
+		margin-top: 255px;
+		margin-right: 2%;
+	}
+	section#NomCV{
+		margin-left: 7%;
+		margin-top: 200px;
+		margin-right: 2%;
+	}
+	section#Nom{
+		margin-left : 10%;
+		margin-top: 400px;
+		margin-right: 2%;
+	}
+	section#EtudesCV{
+		margin-left : 10%;
+		margin-top: 400px;
+		margin-right: 2%;
+	}
+	section#Cours{
+		margin-left: 10%;
+	}
+	section#ExpProCV{
+		margin-left: 10%;
+		margin-top: 2%;
+	}
+	section#Loisirs{
+		margin-left: 10%;
+	}
+	section#LoisirsCV{
+		margin-left: 10%;
+	}
+	section#Animation{
+	position: absolute;
+	margin-left: 80%;
+	margin-top: 2%;
+	}
+}
+
+@media (max-width: 600px) {
+    nav {
+        background-color: #F8ECE0;
+    }
+	section#Animation{
+	position: absolute;
+	margin-left: 60%;
+	margin-top: 2%;
+	}
+}
+
+@media (max-width: 400px) {
+    nav {
+		margin-top: 20px;
+		padding-bottom: 10%;
+		padding-right: 10%;
+	}
+	section#Titre{
+		margin-top: 40%;
+		margin-left: 10%;
+	}
+	section#NomCV{
+		margin-top: 40%;
+		margin-left: 10%;
+	}
+	section#Nom{
+		margin-top: 90%;
+	}
+	section#EtudesCV{
+		margin-top: 105%;
+	}
+	nav > ul > li {
+		display: inline-block;
+		padding: 5px;
+  }
+	nav > ul ul {
+		display: none;
+  }
+  section#Animation{
+	position: absolute;
+	margin-left: 55%;
+	margin-top: 2%;
+	}
+}
+
